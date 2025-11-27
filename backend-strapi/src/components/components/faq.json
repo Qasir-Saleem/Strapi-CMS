@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_faqs",
+  "info": {
+    "displayName": "Faq"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Faq_Data": {
+      "type": "component",
+      "component": "components.faq-data",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

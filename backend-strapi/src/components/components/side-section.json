@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_side_sections",
+  "info": {
+    "displayName": "Side_Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "altTags": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

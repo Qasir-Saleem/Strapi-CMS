@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_abouts",
+  "info": {
+    "displayName": "about"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title1": {
+      "type": "string"
+    },
+    "richtext": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

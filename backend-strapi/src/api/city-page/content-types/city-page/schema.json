@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "city_pages",
+  "info": {
+    "singularName": "city-page",
+    "pluralName": "city-pages",
+    "displayName": "City Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "HeroSections": {
+      "type": "component",
+      "component": "blocks.hero-section",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_seo_tags",
+  "info": {
+    "displayName": "SeoTags"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "state": {
+      "type": "string"
+    },
+    "cannonicalUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

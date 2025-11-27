@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "State Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "States": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "HeroSections": {
+      "type": "component",
+      "component": "components.service",
+      "repeatable": false
+    },
+    "ServiceCard": {
+      "type": "component",
+      "component": "components.services-grid",
+      "repeatable": true
+    },
+    "SeoTags": {
+      "type": "component",
+      "component": "components.seo-tags",
+      "repeatable": true
+    },
+    "contactUs": {
+      "type": "component",
+      "component": "components.contact-us",
+      "repeatable": false
+    },
+    "SideSection": {
+      "type": "component",
+      "component": "components.side-section",
+      "repeatable": false
+    },
+    "Faq": {
+      "type": "component",
+      "component": "components.faq",
+      "repeatable": true
+    }
+  }
+}
